@@ -23,8 +23,8 @@ class LambdaDemo extends Component {
     return (
       <p>
         <button onClick={this.handleClick("hello world!!Bravo")}>{loading ? "Loading..." : "Call Lambda"}</button>
-        <button onClick={this.handleClick("hey")}>{loading ? "he..." : "she"}</button>
         <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
+        I want to check if this is working
         <br />
         <span>{msg}</span>
       </p>
